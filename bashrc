@@ -1,0 +1,11 @@
+# Spark local environment variables
+export SPARK_HOME=CHANGEME!!!
+export SPARK_MASTER_IP=127.0.0.1
+export SPARK_MASTER_PORT=7077
+export SPARK_MASTER_WEBUI_PORT=9080
+export SPARK_LOCAL_DIRS=$SPARK_HOME/../work
+export SPARK_WORKER_CORES=1
+export SPARK_WORKER_MEMORY=1G
+export SPARK_WORKER_INSTANCES=2
+export SPARK_DAEMON_MEMORY=384m
+alias SPARK_ALL=$SPARK_HOME/sbin/start-all.sh
