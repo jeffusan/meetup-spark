@@ -59,3 +59,5 @@ beeline> !connect jdbc:hive2://localhost:10000
 ...
 
 [Spark SQL Documentation](https://spark.apache.org/sql/)
+
+[SQL Documentation (maybe)](http://docs.treasuredata.com/articles/hive)
